@@ -1,8 +1,8 @@
 package = "lusty-html"
-version = "0.1-0"
+version = "0.1-1"
 source = {
-  url = "https://github.com/Olivine-Labs/lusty-html/v0.1.tar.gz",
-  dir = "lusty-html"
+  url = "https://github.com/Olivine-Labs/lusty-html/archive/v0.1.tar.gz",
+  dir = "lusty-html-0.1"
 }
 description = {
   summary = "html input and output for lusty.",
