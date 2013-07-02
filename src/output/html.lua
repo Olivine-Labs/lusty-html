@@ -11,11 +11,11 @@ return {
         return true
       end
 
-      local accept = context.request.headers.accept or "text/html"
+      local accept = context.request.headers.accept
       local content = context.request.headers["content-type"]
 
       return ((accept and (accept:find("text/html") or accept:find("*/*"))) or
-             (content and content:find("text/html"))) and
+             (content and content:find("text/html") and not accept)) and
              type(context.output) == "string"
     end
   }
