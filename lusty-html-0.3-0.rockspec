@@ -1,8 +1,8 @@
 package = "lusty-html"
-version = "0.2-0"
+version = "0.3-0"
 source = {
-  url = "https://github.com/Olivine-Labs/lusty-html/archive/v0.2.tar.gz",
-  dir = "lusty-html-0.2"
+  url = "https://github.com/Olivine-Labs/lusty-html/archive/v0.3.tar.gz",
+  dir = "lusty-html-0.3"
 }
 description = {
   summary = "html input and output for lusty.",
@@ -20,6 +20,6 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["lusty-html.output.html"]  = "src/output/html.lua"
+    ["lusty-html.output.html"]  = "lusty-html/output/html.lua"
   }
 }
